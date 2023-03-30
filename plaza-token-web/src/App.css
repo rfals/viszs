@@ -1,7 +1,161 @@
-.q {
-	width: 100%;
-	height: 100%;
+.header {
 	display: flex;
+	justify-content: center;
+	padding: 1.5rem 0 0 0;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	min-height: calc(94.5vh - 209px);
+	padding: 0 1rem;
+}
+
+.card {
+	background-color: #a85eff;
+	max-width: 400px;
+	border-radius: 20px;
+	margin: 35px 0;
+	padding: 32px 24px;
+	color: #000;
+}
+
+.card-title {
+	font-size: 44px;
+}
+
+.card-description {
+	font-size: 16px;
+	margin: 16px 0;
+}
+
+form {
+	display: block;
+	margin-top: 0em;
+}
+
+.form-helper {
+	margin: 1rem 0;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.form-group {
+	position: relative;
+}
+
+.form-label {
+	position: absolute;
+	top: 0.75rem;
+	left: 20px;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.form-input {
+	width: 100%;
+	padding: 28px 12px 12px;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: right;
+	border-radius: 0.25rem;
+	border: 1px solid #000;
+}
+
+.form-btn {
+	border-radius: 30px;
+	background-color: #000;
+	border: 1px solid #000;
+	color: #fff;
+	width: 100%;
+	font-size: 16px;
+	padding: 13px;
+	cursor: pointer;
+	font-weight: 700;
+	font-family: "Source Sans Pro", sans-serif;
+	height: unset;
+	line-height: unset;
+}
+
+.form-footer {
+	margin-top: 2rem;
+}
+
+.form-btn--secondary {
+	margin-top: 1rem;
+	background-color: transparent;
+	color: #000;
+}
+
+.wallet-adapter-button {
+	background-color: #404144;
+	border: none;
+	border-radius: 6px;
+	color: #fff;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	font-family: "Inter", "Roboto", "Helvetica Neue", Helvetica, Arial,
+		sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 20px;
+}
+
+a:-webkit-any-link {
+	color: -webkit-link;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.nav-brand {
+	width: 20rem;
+}
+
+.footer-wrapper {
+	width: 100%;
+	padding: 0 1rem;
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0.75rem 0;
+	border-top: 1px solid hsla(0, 0%, 100%, 0.2);
+}
+
+.footer-left,
+.footer-right {
+	width: 100%;
+	text-align: center;
+}
+
+.footer-left {
+	font-size: 0.875rem;
+	color: #fff;
+	opacity: 0.8;
+	order: 2;
+	margin: 0.5rem 0;
+}
+
+.footer-right {
+	order: 1;
+}
+
+.footer-link {
+	color: #fff;
+	width: 2rem;
+	height: 2rem;
+	display: inline-block;
+	font-size: 20px;
+	display: inline-flex;
 	justify-content: center;
 	align-items: center;
 }
